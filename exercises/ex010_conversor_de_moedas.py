@@ -2,4 +2,4 @@
 
 
 quantia_reais = float(input("Digite quanto você tem em reais (R$):\n"))
-print("Você pode comprar US$ {:.2f}.\n".format(quantia_reais / 5.36))
+print("Você pode comprar US$ \033[1;32m{:.2f}\033[0m.".format(quantia_reais / 5.36))
