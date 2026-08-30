@@ -7,4 +7,4 @@ numero_digitado = int(input("Digite um número de 0 a 5: ").strip())
 
 numero_sorteado = randint(0, 5)
 
-print("Parabéns! Você acertou!\nO número sorteado foi {}.".format(numero_sorteado) if numero_digitado == numero_sorteado else "Que pena! Você errou!\nO número sorteado foi {}.".format(numero_sorteado))
+print("\033[1;32mParabéns! Você acertou!\033[0m\nO número sorteado foi {}.".format(numero_sorteado) if numero_digitado == numero_sorteado else "\033[1;31mQue pena! Você errou!\033[0m\nO número sorteado foi {}.".format(numero_sorteado))
