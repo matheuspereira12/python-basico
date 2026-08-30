@@ -2,4 +2,4 @@
 
 
 salario = float(input("Digite o seu salário: "))
-print("O salário do funcionário era R$ {:.2f}.\nCom o aumento, o novo salário será R$ {:.2f}.".format(salario, salario * 1.15) if salario <= 1250.0 else "O salário do funcionário era R$ {:.2f}.\nCom o aumento, o novo salário será R$ {:.2f}.".format(salario, salario * 1.1))
+print("\033[1;32mO salário do funcionário era R$ {:.2f}.\nCom o aumento, o novo salário será R$ {:.2f}.\033[0m".format(salario, salario * 1.15) if salario <= 1250.0 else "\033[1;33mO salário do funcionário era R$ {:.2f}.\nCom o aumento, o novo salário será R$ {:.2f}.\033[0m".format(salario, salario * 1.1))
