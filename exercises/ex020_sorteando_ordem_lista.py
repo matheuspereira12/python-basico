@@ -11,5 +11,5 @@ lista_alunos = [aluno_1, aluno_2, aluno_3, aluno_4]
 
 shuffle(lista_alunos)
 
-print("A ordem sorteada foi:\n{:<20} \n{:<20} \n{:<20} \n{:<20}".format(lista_alunos[0], lista_alunos[1], lista_alunos[2], lista_alunos[3]))
+print("A ordem sorteada foi:\n\033[1;33m{:<20}\033[0m\n\033[1;33m{:<20}\033[0m\n\033[1;33m{:<20}\033[0m\n\033[1;33m{:<20}\033[0m".format(lista_alunos[0], lista_alunos[1], lista_alunos[2], lista_alunos[3]))
 

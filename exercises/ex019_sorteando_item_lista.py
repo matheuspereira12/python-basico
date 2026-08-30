@@ -7,4 +7,4 @@ aluno_4 = input("Digite o nome do quarto aluno: ")
 
 aluno_sorteado = choice([aluno_1, aluno_2, aluno_3, aluno_4])
 
-print("O aluno sorteado foi: {}!".format(aluno_sorteado))
+print("O aluno sorteado foi: \033[1;33m{}\033[0m!".format(aluno_sorteado))
