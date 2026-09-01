@@ -1,21 +1,19 @@
-# Curso de Python - Mundo 1 (Curso em Vídeo)
+# Curso de Python - Mundo 1 e 2 (Curso em Vídeo)
 
-Repositório dedicado aos meus estudos, anotações e códigos de exercícios realizados durante o curso **Python 3 - Mundo 1**, ministrado pelo professor Gustavo Guanabara.
+Repositório de estudos e exercícios do curso **Python 3** do professor Gustavo Guanabara.
 
-## 📚 Sobre o Curso
+## 📚 Conteúdo
 
-O curso é oferecido pelo Canal Curso em Vídeo e aborda os fundamentos iniciais da linguagem Python, incluindo:
+* **Mundo 1:** Fundamentos, tipos primitivos, operadores, módulos e condições básicas (`if`/`else`).
+* **Mundo 2:** Estruturas de controle, condições aninhadas (`elif`) e laços de repetição (`for`, `while`, `break`).
 
-* Manipulação de dados e tipos primitivos.
-* Operadores aritméticos.
-* Utilização de módulos.
-* Condições básicas (`if`, `elif`, `else`).
-
-## 🔗 Referência
+## 🔗 Referências
 
 * **Canal:** [Curso em Vídeo](https://www.youtube.com/cursoemvideo)
 * **Professor:** Gustavo Guanabara
-* **Playlist Oficial:** [Python 3 - Mundo 1](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
+* **Playlists:** 
+  * [Python 3 - Mundo 1](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
+  * [Python 3 - Mundo 2](https://www.youtube.com/playlist?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye)
 
 ---
 
