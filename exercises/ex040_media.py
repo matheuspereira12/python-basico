@@ -3,7 +3,7 @@
 # Calcula a média das duas notas e informa a situação do aluno.
 
 
-# nota_1 = float(input("Digite a primeira nota do aluno: "))
+nota_1 = float(input("Digite a primeira nota do aluno: "))
 
 nota_2 = float(input("Digite a segunda nota do aluno: "))
 
