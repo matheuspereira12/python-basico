@@ -5,7 +5,7 @@ contador = 0
 continuar = True
 
 while continuar:
-    numero = int(input("Digite um número inteiro qualquer para ser somado ou 999 para parar: "))
+    numero = int(input("Digite um número inteiro qualquer para ser somado ou 999 para parar:     "))
     if numero == 999:
         continuar = False
     else:
