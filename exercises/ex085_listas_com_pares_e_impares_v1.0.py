@@ -7,6 +7,7 @@ for i in range(7):
     else:
         numeros[1].append(valor)
         
+numeros.sort()
 pares = " ".join(map(str, numeros[0]))
 impares = " ".join(map(str, numeros[1]))
 print(f"Os números pares são {pares}.\nOs números ímpares são {impares}.")
