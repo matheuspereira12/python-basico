@@ -24,3 +24,11 @@ def metade(numero, exibir_formatado=False):
     else:
         return f"O valor é {numero / 2}."
 
+
+def leia_dinheiro():
+    while True:
+        numero = input("Digite um valor: ").strip().replace(",", ".")
+        if numero.count(".") <= 1 and numero.replace(".", "").isdigit():
+            return float(numero)
+        print("Valor inválido. Digite um valor monetário válido.")
+            
